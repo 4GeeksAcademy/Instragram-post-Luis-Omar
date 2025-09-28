@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.post{
+    background-color: #ffffff;
+    width: 380px;  
+    height: 500px;
+}
+
+
+/*HEADER*/
+.header{
+    height: 50px;
+    border:1px #fff solid;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 5px;
+}
+/*ZONA IZQUIERDA DEL HEADER*/
+.header-izquierda{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+}
+.header-icono{
+    width: 17%;
+    height: 100%;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 33px;
+    margin-right:0px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.header-html5-nombre{
+    width: 60%;
+    height: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-4px);
+}
+.header-HTML5{
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 6px 0 4px 0;
+}
+.header-nombre{
+    width: 100%;
+    height: 50%;
+    background-color: #fff ;
+    color: black;
+    font-size: 12px;
+    font-size: 13px;
+}
+/*ZONA DERECHA DEL HEADER*/
+.header-derecha{
+    width: 20px;
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    padding-right: 4px ;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+/*ZONA DEL BODY*/
+img{
+    width: 100%;
+    height: auto;
+    padding: 0
+}
+
+
+/*ZONA DEL FOOTER*/
+.footer{
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+}
+.fa-regular{
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-bookmark{
+    margin-left: auto;
+    margin-right: 8px;
+}
+.footer-iconos{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+}
+.footer-titulo{
+    height: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.footer-descripcion{
+    height: 113px;
+    margin-top: 5px;
+}
+
+
+/*CLASES PARA LOS ICONOS*/
+
+   
