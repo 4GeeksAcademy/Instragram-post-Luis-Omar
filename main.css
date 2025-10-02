@@ -109,7 +109,13 @@ img{
 }
 .fa-regular{
     font-size: 23px;
+    transition: color 0.3s;
     cursor: pointer;
+ }
+.fa-regular:hover{
+    color: green;
+    
+
 }
 .fa-bookmark{
     margin-left: auto;
