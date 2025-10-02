@@ -6,11 +6,11 @@
 body{
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
     background-color:#000;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 
@@ -46,7 +46,6 @@ body{
     font-size: 33px;
     margin-right:0px;
     margin-left: 0px;
-    cursor: pointer;
 }
 .header-html5-nombre{
     width: 60%;
@@ -91,7 +90,7 @@ body{
 img{
     width: 100%;
     height: auto;
-    padding: 0
+    padding: 0;
 }
 
 
@@ -101,6 +100,13 @@ img{
     height: 300px;
     padding: 5px;
 }
+.footer-iconos{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 9px;
+}
 .fa-regular{
     font-size: 23px;
     cursor: pointer;
@@ -108,13 +114,6 @@ img{
 .fa-bookmark{
     margin-left: auto;
     margin-right: 8px;
-}
-.footer-iconos{
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 7px;
 }
 .footer-titulo{
     height: 20px;
@@ -125,8 +124,3 @@ img{
     height: 113px;
     margin-top: 5px;
 }
-
-
-/*CLASES PARA LOS ICONOS*/
-
-   
